@@ -8,6 +8,10 @@ public class Garten {
         this.pflanzen = pflanzen;
     }
 
+    /**
+        @implNote getPflanzen fn,mansdfknkjsanfkjnsajkdfjsadf sadfasf
+     */
+
     public List<Pflanze> getPflanzen() {
         return pflanzen;
     }

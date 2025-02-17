@@ -25,7 +25,7 @@ public class Gartensimulation {
         try {
             result = Integer.parseInt(r.readLine());
         } catch (Exception e) {
-            throw new RuntimeException();
+            result = 0;
         }
         while (result != wurf1 && result != wurf2 && result != wurf1 + wurf2) {
             System.out.println("Ihre eingabe hat nicht den Regeln entsprochen. Sie können die Zahlen " + wurf1 + ", " + wurf2 + " und " + (wurf1 + wurf2) + " giessen.");
